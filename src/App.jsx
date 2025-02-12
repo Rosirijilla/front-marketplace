@@ -8,6 +8,7 @@ import PopularProducts from './pages/home/PopularProducts';
 import ProductList from './pages/home/ProductList';
 import Profile from './components/Profile';
 import Footer from './components/Footer';
+import Cart from './components/Cart';
 
 function App() {
   // Datos de ejemplo para el perfil
@@ -51,6 +52,9 @@ function App() {
                 onLogout={() => console.log('Cerrar sesión')}
               />
             } />
+            
+            {/* Nueva ruta para el carrito */}
+            <Route path="/cart" element={<Cart />} />
             
             {/* Puedes agregar más rutas aquí */}
           </Routes>

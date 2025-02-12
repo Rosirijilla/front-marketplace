@@ -24,7 +24,7 @@ const Header = ({ isLoggedIn }) => {
             ) : (
               <>
                 <Nav.Link as={Link} to="/profile">Perfil</Nav.Link>
-                <Nav.Link href="#cart">Carrito</Nav.Link>
+                <Nav.Link href="/cart">Carrito</Nav.Link>
                 <Button variant="outline-danger">Cerrar Sesión</Button>
               </>
             )}
