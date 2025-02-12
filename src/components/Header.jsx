@@ -7,8 +7,8 @@ const Header = ({ isLoggedIn }) => {
       <Container>
         <Navbar.Brand as={Link} to="/">
           <img
-            src="/logo-placeholder.png"
-            height="30"
+            src="src/assets/img/tradz-logo.png"
+            height="80"
             alt="Logo"
             className="d-inline-block align-top"
           />
